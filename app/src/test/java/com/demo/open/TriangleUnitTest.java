@@ -30,6 +30,9 @@ public class TriangleUnitTest {
         System.out.println("斜边 c3："+TriangleUtils.getHypotenuseFromDegree(32.14   ,859.5));
         System.out.println("边长 c4："+TriangleUtils.getSideFromSideAndDegree(64.28  ,57.86,1080));
         System.out.format("%s 度的余弦值为 %s", Math.toRadians(90), Math.cos(Math.toRadians(90)));
+        float af = 256000;
+        System.out.println("float："+(5.3385005E-4/Float.MAX_VALUE)+" "+af);
+        System.out.println("float："+((double)(7.693485E-12/0.64103067))+" "+(7.693485E-12>0.64103067)+String.format(" %.2f",(7.693485E-12/0.64103067)));
     }
 
     @Test
