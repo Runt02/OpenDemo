@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">OpenDemo</string>
+    <string name="path_play">M7,5 L7,18 M16,5 L16,18 M7,18 L7,18 M16,5 L16,5 L16,5 z</string>
+    <string name="path_pause">M6,5 L17,12 M6,18 L17,12 M6,18 L6,5 M6,18 L6,18 L6,18 z</string>
+    <string name="path_pause2">M6,5 L17,12 M6,18 L17,12 M6,18 L6,5 M7,6 L7,17 L15,12 z</string>
 </resources>
