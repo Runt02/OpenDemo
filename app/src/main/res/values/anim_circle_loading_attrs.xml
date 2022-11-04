@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading_0">M25.5,1.5 A24,24 0 0 1 25.50,1.50</string>
+    <string name="loading_1">M25.5,1.5 A24,24 0 0 1 28.51,1.69</string>
+    <string name="loading_2">M25.5,1.5 A24,24 0 0 1 31.47,2.25</string>
+    <string name="loading_3">M25.5,1.5 A24,24 0 0 1 34.33,3.19</string>
+    <string name="loading_4">M25.5,1.5 A24,24 0 0 1 37.06,4.47</string>
+    <string name="loading_5">M25.5,1.5 A24,24 0 0 1 39.61,6.08</string>
+    <string name="loading_6">M25.5,1.5 A24,24 0 0 1 41.93,8.00</string>
+    <string name="loading_7">M25.5,1.5 A24,24 0 0 1 43.99,10.20</string>
+    <string name="loading_8">M25.5,1.5 A24,24 0 0 1 45.76,12.64</string>
+    <string name="loading_9">M25.5,1.5 A24,24 0 0 1 47.22,15.28</string>
+    <string name="loading_10">M25.5,1.5 A24,24 0 0 1 48.33,18.08</string>
+    <string name="loading_11">M25.5,1.5 A24,24 0 0 1 49.07,21.00</string>
+    <string name="loading_12">M25.5,1.5 A24,24 0 0 1 49.45,23.99</string>
+    <string name="loading_13">M25.5,1.5 A24,24 0 0 1 49.45,27.01</string>
+    <string name="loading_14">M25.5,1.5 A24,24 0 0 1 49.07,30.00</string>
+    <string name="loading_15">M25.5,1.5 A24,24 0 0 1 48.33,32.92</string>
+    <string name="loading_16">M25.5,1.5 A24,24 0 0 1 47.22,35.72</string>
+    <string name="loading_17">M25.5,1.5 A24,24 0 0 1 45.76,38.36</string>
+    <string name="loading_18">M25.5,1.5 A24,24 0 0 1 43.99,40.80</string>
+    <string name="loading_19">M26.86,1.54 A24,24 0 0 1 41.93,43.00</string>
+    <string name="loading_20">M32.20,2.45 A24,24 0 0 1 39.61,44.92</string>
+    <string name="loading_21">M37.19,4.54 A24,24 0 0 1 37.06,46.53</string>
+    <string name="loading_22">M41.60,7.70 A24,24 0 0 1 34.33,47.81</string>
+    <string name="loading_23">M45.18,11.76 A24,24 0 0 1 31.47,48.75</string>
+    <string name="loading_24">M47.76,16.52 A24,24 0 0 1 28.51,49.31</string>
+    <string name="loading_25">M49.20,21.75 A24,24 0 0 1 25.50,49.50</string>
+    <string name="loading_26">M49.44,27.16 A24,24 0 0 1 22.49,49.31</string>
+    <string name="loading_27">M48.46,32.48 A24,24 0 0 1 19.53,48.75</string>
+    <string name="loading_28">M46.31,37.46 A24,24 0 0 1 16.67,47.81</string>
+    <string name="loading_29">M43.10,41.82 A24,24 0 0 1 13.94,46.53</string>
+    <string name="loading_30">M38.99,45.35 A24,24 0 0 1 11.39,44.92</string>
+    <string name="loading_31">M34.19,47.87 A24,24 0 0 1 9.07,43.00</string>
+    <string name="loading_32">M28.96,49.25 A24,24 0 0 1 7.01,40.80</string>
+    <string name="loading_33">M23.54,49.42 A24,24 0 0 1 5.24,38.36</string>
+    <string name="loading_34">M18.23,48.37 A24,24 0 0 1 3.78,35.72</string>
+    <string name="loading_35">M13.28,46.16 A24,24 0 0 1 2.67,32.92</string>
+    <string name="loading_36">M8.96,42.89 A24,24 0 0 1 1.93,30.00</string>
+    <string name="loading_37">M5.48,38.74 A24,24 0 0 1 1.55,27.01</string>
+    <string name="loading_38">M3.02,33.91 A24,24 0 0 1 1.55,23.99</string>
+    <string name="loading_39">M1.71,28.66 A24,24 0 0 1 1.93,21.00</string>
+    <string name="loading_40">M1.61,23.24 A24,24 0 0 1 2.67,18.08</string>
+    <string name="loading_41">M2.72,17.94 A24,24 0 0 1 3.78,15.28</string>
+    <string name="loading_42">M5.00,13.02 A24,24 0 0 1 5.24,12.64</string>
+    <string name="loading_43">M7.01,10.20 A24,24 0 0 1 7.01,10.20</string>
+    <string name="loading_44">M9.07,8.00 A24,24 0 0 1 9.07,8.00</string>
+    <string name="loading_45">M11.39,6.08 A24,24 0 0 1 11.39,6.08</string>
+    <string name="loading_46">M13.94,4.47 A24,24 0 0 1 13.94,4.47</string>
+    <string name="loading_47">M16.67,3.19 A24,24 0 0 1 16.67,3.19</string>
+    <string name="loading_48">M19.53,2.25 A24,24 0 0 1 19.53,2.25</string>
+    <string name="loading_49">M22.49,1.69 A24,24 0 0 1 22.49,1.69</string>
+    <string name="loading_end">M25.5,1.5 A24,24 0 0 1 25.5,1.5</string>
+</resources>

@@ -7,6 +7,10 @@ import com.demo.open.utils.TriangleUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -77,4 +81,64 @@ public class TriangleUnitTest {
         }
     }
 
+    @Test
+    public void printAnimate(){
+        for (int i = 0; i < 50; i++) {
+            System.err.println("<item\n" +
+                    "        android:drawable=\"@drawable/vector_circle_"+i+"\"\n" +
+                    "        android:duration=\"20\" />\n");
+        }
+    }
+
+    /**
+     * 创建drawable 提供帧动画的视图
+     */
+    @Test
+    public void generateDrawables(){
+        for (int i = 0; i < 50; i++) {
+            StringBuilder sbContent = new StringBuilder();
+            sbContent.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
+                    "<vector xmlns:android=\"http://schemas.android.com/apk/res/android\"\n" +
+                    "    android:width=\"51dp\"\n" +
+                    "    android:height=\"51dp\"\n" +
+                    "    android:viewportHeight=\"51\"\n" +
+                    "    android:viewportWidth=\"51\">\n" +
+                    "\n" +
+                    "    <path\n" +
+                    "        android:name=\"circle\"\n" +
+                    "        android:pathData=\"@string/loading_"+i+"\"\n" +
+                    "        android:strokeAlpha=\"1\"\n" +
+                    "        android:strokeColor=\"@color/teal_200\"\n" +
+                    "        android:strokeLineCap=\"round\"\n" +
+                    "        android:strokeWidth=\"2\"/>\n" +
+                    "</vector>");
+            createFile("F:/drawabls/vector_circle_"+i+".xml",sbContent.toString());
+        }
+    }
+
+    /**
+     * 创建文件
+     * @param fileName  文件名称
+     * @param content   文件内容
+     */
+    private void createFile(String fileName,String content){
+        try{
+            File file =new File(fileName);
+            if(!file.exists()){
+                File parentFile = file.getParentFile();
+                if(!parentFile.exists()){
+                    parentFile.mkdirs();
+                }
+                file.createNewFile();
+            }
+            //使用true，即进行append file
+            FileWriter fileWritter = new FileWriter(fileName,true);
+            BufferedWriter bw = new BufferedWriter(fileWritter);
+            bw.write(content);
+            bw.close();
+            System.out.println("finish "+fileName);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
 }
